@@ -1,0 +1,62 @@
+{
+  "name": "react-sweet-modal",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "sass": "sass --watch ./src/assets/scss/main.scss:./src/assets/style.css"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.3",
+    "jsdoc": "^4.0.2",
+    "better-docs": "^2.7.2",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "A react sweet modal library",
+  "main": "./dist/vite-react-modal.umd.js",
+  "module": "./dist/vite-react-modal.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-react-modal.es.js",
+      "require": "./dist/vite-react-modal.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css",
+    "./dist/index.d.ts": "./dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duorly/P14-OC-SweetModalLibrary.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Duorli Nebel Réjouis Massengo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Duorly/P14-OC-SweetModalLibrary/issues"
+  },
+  "homepage": "https://github.com/Duorly/P14-OC-SweetModalLibrary#readme"
+}
