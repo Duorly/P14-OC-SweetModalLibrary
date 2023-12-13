@@ -13,14 +13,10 @@
     "better-docs/component",
     "better-docs/typescript"
   ],
-  "templates": {
-    "better-docs": {
-      "name": "oc-p14-modal-library"
-    }
-  },
   "opts": {
     "destination": "docs",
     "readme": "README.md",
-    "recurse": true
+    "recurse": true,
+    "template": "node_modules/better-docs"
   }
 }

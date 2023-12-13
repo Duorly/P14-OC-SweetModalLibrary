@@ -10,8 +10,8 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, 'src/lib/index.ts'),
-      name: 'vite-react-modal',
-      fileName: (format) => `vite-react-modal.${format}.js`
+      name: 'react-sweet-modal',
+      fileName: (format) => `react-sweet-modal.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

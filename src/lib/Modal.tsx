@@ -17,11 +17,11 @@ interface ModalProps {
  * <Modal show={true} close={() => setIsModalOpen(false)} title="Custom Modal Title">
  *   Modal content
  * </Modal>
- * 
+ *
  * @param {ModalProps} props - The properties for the Modal component.
  * @returns {JSX.Element} The Modal component.
  */
-export const Modal: React.FC<ModalProps> = (props) => {
+export const Modal: React.FC<ModalProps> = (props : ModalProps): JSX.Element => {
     const { title = "insert title", content = "insert content" } = props;
     const { show, close } = props;
 

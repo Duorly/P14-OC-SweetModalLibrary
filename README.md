@@ -48,8 +48,8 @@ const [isOpen, setIsOpen] = useState(false);
 
 ```jsx
 <Modal
-  show={isModalOpen}
-  close={closeModal}
+  show={isOpen}
+  close={() => setIsOpen(false)}
   title="Custom Modal Title"
   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Unum nescio,."
 />

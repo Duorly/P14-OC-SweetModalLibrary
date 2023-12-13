@@ -1,7 +1,7 @@
 {
   "name": "react-sweet-modal",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,19 +13,19 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.69.3",
+    "sass": "^1.69.5",
     "jsdoc": "^4.0.2",
-    "better-docs": "^2.7.2",
+    "better-docs": "^2.7.3",
     "vite-plugin-css-injected-by-js": "^3.3.0"
   },
   "devDependencies": {
-    "@types/node": "^20.5.6",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vite-plugin-dts": "^3.6.0"
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.6.4"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -35,13 +35,13 @@
     "dist"
   ],
   "description": "A react sweet modal library",
-  "main": "./dist/vite-react-modal.umd.js",
-  "module": "./dist/vite-react-modal.es.js",
+  "main": "./dist/react-sweet-modal.umd.js",
+  "module": "./dist/react-sweet-modal.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vite-react-modal.es.js",
-      "require": "./dist/vite-react-modal.umd.js"
+      "import": "./dist/react-sweet-modal.es.js",
+      "require": "./dist/react-sweet-modal.umd.js"
     },
     "./dist/style.css": "./dist/style.css",
     "./dist/index.d.ts": "./dist/index.d.ts"
